@@ -1,12 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
     <title>Document</title>
-</head>
-<body>
+    <link rel="stylesheet" href="1stAssign.css">
+  </head>
+  <body>
+    <table align="center">
+    <tr>
+      <th colspan="2"><div id = "register">Student Registration Form</div></th>
+    </tr>
     
-</body>
+    
+      <tr>
+        <td>Name:</td>
+        <td><input type="text" placeholder="Enter Full Name" name="Name" /></td>
+      </tr>
+      
+      <tr>
+        <td>Father's Name:</td>
+        <td><input type="text" name="FatherName" /> </td>
+      </tr>
+
+      <tr>
+          <td>Mother's Name:</td>
+        
+    
+   
+        <td><input type="text" name="Mothername" /></td>
+      </tr>
+
+      <tr>
+        <td>Phone Number</td>
+        <td><input type="number" placeholder="017xxxxxxxx" name="Number" ></td>
+      </tr>
+
+      <tr>
+        <td>Email</td>
+        <td><input type="email" placeholder = "sample@example.com" name="Email" /><br /></td>
+      </tr>
+      <tr>
+        <td>Gender</td>
+        <td>
+          <input type="radio" name="gender" />Male
+          <input type="radio" name="gender" />Female
+          <input type="radio" name="gender" />Others
+        </td>
+      </tr>
+
+      <tr> 
+          <td>Date Of Birth :</td>
+          <td><input type="text"> - <input type="text"> - <input type="text"></td>
+      </tr>
+      <td>Address</td>
+      <td><input type="text" name = "address" placeholder = "Street-   House-   Road:-" ></td>
+      <tr>
+
+        <tr>
+            <td>Blood Group</td>
+            <td><select name ="Blood Group">
+                <option value=”BD”>A</option>
+                <option value=”BD”>AB</option>
+                <option value=”BD”>O</option>
+                <option value=”BD”>B</option>
+                </select></td></tr>
+        
+        <td>Department</td>
+        <td>
+          <input type="radio" name="Dept" />CSE
+          <input type="radio" name="Dept" />EEE
+          <input type="radio" name="Dept" />BBA
+        </td>
+
+      </tr>
+      <tr>
+        <td>Course</td>
+        <td>
+          <input type="checkbox" name="Course" />C
+          <input type="checkbox" name="Course" />C++
+          <input type="checkbox" name="Course" />Java
+          <input type="checkbox" name="Course" />AI
+          <input type="checkbox" name="Course" />Machine Learning
+          <input type="checkbox" name="Course" />Robotics
+        </td>
+        
+      </tr>
+       <tr>
+
+        <td>Photo</td>
+        <td><input type="file"></td>
+       </tr>
+
+
+       <tr>
+         <td>
+          <input type="submit"" id = "submit" >
+          <input type = "reset" id = "reset">
+         </td>
+       </tr>
+
+    
+
+    
+    </table>
+  </body>
 </html>
