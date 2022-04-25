@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+}
+nav{
+    background-color: rgb(239, 44, 63);
+    display: inline-flex;
+    width: 100%;
+    justify-content:space-evenly;
+    position: sticky;
+    top: 0px;
+}
+nav h1{
+    margin: 10px;
+    color: white;
+}
+img{
+    margin-top: 20px;
+    width: 50%;
+    height: auto;
+}
+#text{
+    text-align: justify;
+}

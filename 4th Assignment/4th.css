@@ -1,0 +1,48 @@
+/*POstion Prperty */
+.box-orange-static {         
+    background: green;
+    height: 100px;
+    width: 100px;       
+  }
+  
+  .box-blue-static {
+    background: purple;
+    height: 100px;
+    width: 100px; 
+    position: static;  
+  }
+
+
+  .box-orange-relative {
+    position: relative; 
+    background: green;
+    width: 100px;
+    height: 100px;
+    top: 100px;         
+    left: 100px;        
+  }
+  .box-blue-relative {
+    background: purple;
+    height: 100px;
+    width: 100px; 
+    position: static;  
+  }
+
+
+  /*FLoat Prperty */
+  img {
+    float: right;
+  }
+  
+
+  /* Display Property*/
+
+
+  p.inline {
+    background-color: purple;
+    display: inline; /*makes the <p> element, which is a block level element by default, display as an inline element if the "inline" class is assigned to it.*/
+  }
+  p.block {
+    background-color: purple;
+    display: block; /*makes the <p> element, which is a block level element by default, display as an inline element if the "inline" class is assigned to it.*/
+  }
